@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #FDEBD0;
+    margin: auto;
+}
+
+body {
+    display: block ;
+    padding: 3%;
+    margin-left: 11%;
+    width: 80%;
+    height: 100%;
+    color: #3E2723;
+}
+
+header {
+    padding: 5px;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 10px;
+    
+    width: 11em;
+    background-color: white;
+    font-size: 80%;
+    text-align: left;
+
+}
+aside p{
+    color: black;
+    text-align: left;
+    font-size: 1.33rem;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3vh;
+    padding: 1vh;
+}
+
+div {
+    height: 100vh;
+    width: 98vh;
+    margin-left: 30px;
+    
+}
+
+h1 { font-family: Arial, sans-serif;
+    font-size: 58px;
+    color: #3E2723
+     ;
+    body {       
+        margin: 50px;
+        margin-top: 10px;
+        margin-right: 2px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+        padding: 5px;
+        
+    };
+    text-align: center;           
+}
+
+
+h2, p {
+    font-family: Tahoma, Verdana, sans-serif;
+    text-align: justify;
+    color: #3E2723 ;
+    padding: 10px;
+
+}
+h3, h4 {
+    text-align: justify;
+    color: #3E2723 ;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 5px
+    height: 12vh;
+    list-style: none;
+}
+  
+.menu li {
+    background-color: #6C3483 ;
+    width: 400px;
+    height: 50px;
+    transition: background-position-x 0.9s linear;
+    text-align: center;
+    float: center;
+}
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #04AA6D;
+  }
+  
+main {
+    align-items: center;
+}
+
+
+#descripccion {height: fit-content;
+    padding: 10px;
+    margin-left: 90px;
+    margin-right: 83px;
+    margin-bottom: 100px;
+    
+}
+
+
+footer {
+    align-self: last baseline
+    margin: auto;
+    background-color: rgb(126, 201, 112);
+    padding: 7%;
+    width: 100vh;
+    ;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dl,
+dd {
+    font-size: 0.9rem;
+    color: white;
+}
+
+dd {
+    margin-bottom: 1em;
+}
+#contacto h4{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+    
